@@ -1,0 +1,9 @@
+from django.shortcuts import render
+import requests
+
+def button(request):
+    return render(request, 'home.html')
+
+def ouput(request):
+    
+    return render(request, 'home.html')
