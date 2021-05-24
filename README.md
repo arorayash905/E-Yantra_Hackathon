@@ -8,6 +8,9 @@
 
 ![Plot](https://github.com/arorayash905/E-Yantra_Hackathon/blob/main/plot.png)
 ####              Learning and Testing curve of Mask Detection
+
+![Social Distancing](https://github.com/arorayash905/E-Yantra_Hackathon/blob/main/Social%20Distancing%20on%20live%20CCTV%20Phootage/output.avi)
+#### University premises CCTV Phootage shows risk factor between persons
 ## To processing various sensors data in a single frame. We are using HTML and Django web framework for python in which we listed three buttons for each sensor. Named as Room Temperature, Body Temperature and Gas detection to run the program simultaneously.
 ### A button that initialises our program of sensor DHT 11 and the data received from DHT 11 will be saved under a CSV format file which again used by: Matplotlib.pyplot to plot a real-time graph of the temperature, be it room temperature or a body temperature of the patients
 
