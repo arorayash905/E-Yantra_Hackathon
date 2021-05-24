@@ -14,6 +14,16 @@ GPIO.setup(echo, GPIO.IN)
 GPIO.setup(11,GPIO.OUT)
 servo1 = GPIO.PWM(11,50)
 
+def SetAngle(angle):
+	duty = angle / 18 + 2
+	GPIO.output(11, True)
+	pwm.ChangeDutyCycle(duty)
+	sleep(1)
+	GPIO.output(11, False)
+	pwm.ChangeDutyCycle(0)
+    
+
+
 while True:
     while GPIO.input(echo) == 0:
             pass
@@ -29,7 +39,9 @@ while True:
     GPIO.cleanup()
     
     if distance_in_cm <= 4: #Hand Distance in CM
-        return
+        SetAngle(90)
+        pwm.stop()
+        GPIO.cleanup()
     else:
         pass
 
