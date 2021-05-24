@@ -28,7 +28,7 @@ while True:
     
     GPIO.cleanup()
     
-    if distance_in_cm <= 4:
+    if distance_in_cm <= 4: #Hand Distance in CM
         return
     else:
         pass
