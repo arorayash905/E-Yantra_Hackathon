@@ -1,5 +1,5 @@
 # E-Yantra_Hackathon
-# Kritrim Intellignece IoT Yantra
+# Kritrim Intelligence IoT Yantra
 ## We are designing an IoT kit based on various sensor and a computer vision solution to fight against Covid-19. 
 ### 1- We are using DHT11 for measuring Humidity and temperature for the patient's room.
 ### 2- LM35 sensor for patient’s body temperature and SCD30 for measuring various gas availability in the patient's room.
