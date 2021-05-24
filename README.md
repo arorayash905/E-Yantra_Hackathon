@@ -15,7 +15,7 @@
 ### A button that initialises our program of sensor DHT 11 and the data received from DHT 11 will be saved under a CSV format file which again used by: Matplotlib.pyplot to plot a real-time graph of the temperature, be it room temperature or a body temperature of the patients
 
 ## Environment
-### Programming Languages: Python3 and HTML
+### Programming Languages: Python3 and HTML, C++
 ### Packages and Library: Tensorflow, Numpy, Matplotlib, OpenCV, utils, Yolo V3, Coco(Datasets), Django
 ### Hardware Components: Raspberry Pi 3/4, Pi camera/USB Camera or CCTV, Servo Motor.
 ### Sensors: DHT11, LM35, SCD30, HC-SR04
